@@ -1,0 +1,8 @@
+category: KDE
+sdesc: "OpenGL-based animated Qt4 GUI library (sources)"
+ldesc: "Clutter is an open source software library for creating fast, 
+visually rich and animated graphical user interfaces.
+
+Clutter-Qt is a library providing facilities to integrate Clutter into Qt
+applications. It provides a Qt widget, ClutterQt, for embedding the
+default ClutterStage into any parent QtWidget."

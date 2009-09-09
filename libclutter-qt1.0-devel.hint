@@ -1,0 +1,10 @@
+category: KDE
+requires: libclutter-qt1.0_0 libclutter1.0-devel libglib2.0-devel libQtCore4-devel libQtGui4-devel libstdc++6-devel libX11-devel
+external-source: clutter-qt1.0
+sdesc: "OpenGL-based animated Qt4 GUI library (development)"
+ldesc: "Clutter is an open source software library for creating fast, 
+visually rich and animated graphical user interfaces.
+
+Clutter-Qt is a library providing facilities to integrate Clutter into Qt
+applications. It provides a Qt widget, ClutterQt, for embedding the
+default ClutterStage into any parent QtWidget."

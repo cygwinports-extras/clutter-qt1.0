@@ -1,0 +1,11 @@
+--- origsrc/clutter-qt/clutter-qt/Makefile.am	2009-06-18 13:49:00.000000000 -0500
++++ src/clutter-qt/clutter-qt/Makefile.am	2009-06-18 13:49:22.362062900 -0500
+@@ -20,7 +20,7 @@ source_cc = \
+ 
+ libclutter_qt_@CLUTTER_QT_API_VERSION@_la_SOURCES = $(source_cc)
+ libclutter_qt_@CLUTTER_QT_API_VERSION@_la_LIBADD  = $(CLUTTER_LIBS) $(QT_LIBS)
+-libclutter_qt_@CLUTTER_QT_API_VERSION@_la_LDFLAGS = $(CLUTTER_LT_LDFLAGS)
++libclutter_qt_@CLUTTER_QT_API_VERSION@_la_LDFLAGS = $(CLUTTER_LT_LDFLAGS) -no-undefined
+ 
+ clutterqtheadersdir = $(includedir)/clutter-@CLUTTER_QT_API_VERSION@/clutter-qt
+ clutterqtheaders_HEADERS = clutter-qt.h

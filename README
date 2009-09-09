@@ -1,0 +1,63 @@
+clutter-qt1.0
+------------------------------------------
+Clutter is an open source software library for creating fast, visually 
+rich and animated graphical user interfaces.
+
+Clutter-Qt is a library providing facilities to integrate Clutter into Qt
+applications. It provides a Qt widget, ClutterQt, for embedding the
+default ClutterStage into any parent QtWidget.
+
+Runtime requirements:
+  cygwin-1.7.0-60
+  libclutter1.0_0-1.0.2-1
+  libgcc1-4.3.2-2
+  libglib2.0_0-2.20.5-1
+  libQtCore4-4.5.2-1
+  libQtGui4-4.5.2-1
+  libstdc++6-4.3.2-2
+  libX11_6-1.2.2-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  autoconf2.5-2.63-10
+  automake1.10-1.10.2-10
+  binutils-2.19.51-1
+  cygport-0.9.9-1
+  gawk-3.1.7-1
+  gcc4-core-4.3.2-2
+  gcc4-g++-4.3.2-2
+  libtool-2.2.7a-14
+  make-3.81-2
+  pkg-config-0.23b-10
+  sed-4.1.5-2
+
+Canonical website:
+  http://www.clutter-project.org/
+
+Canonical download:
+  http://www.clutter-project.org/sources/clutter-gtk/
+
+-------------------------------------------
+
+Build instructions:
+  unpack clutter-qt1.0-1.0.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./clutter-qt1.0-1.0.0-X.cygport all
+
+This will create:
+  /usr/src/clutter-qt1.0-1.0.0-X-src.tar.bz2
+  /usr/src/libclutter-qt1.0-devel-1.0.0-X.tar.bz2
+  /usr/src/libclutter-qt1.0_0-1.0.0-X.tar.bz2
+
+-------------------------------------------
+
+Port Notes:
+
+----- version 1.0.0-1 -----
+Initial release of Clutter 1.0 API for Cygwin 1.7.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/
